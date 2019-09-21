@@ -1,19 +1,11 @@
 import java.util.Scanner;
 
-/* 
- * Rules for Encryption
+/*
+ * Name: Zahid Ramdeen
+ * UCFID: 4171623
+ * Assignment: Programming Assignment 2 Question 1 (Decryption)
  * 
- * Part A
- * 1. Add 7
- * 2. Divide by 10
- * 3. Obtain the Remainder of the step 2.
- * 4. Replace the digit with the Remainder.
- * 5. Swap the 1st and 3rd digit. Swap the 2nd and 4th digit.
- * 6. Print the encrypted integer.
- * 
- * Part B
- * Decrypt the integer from Part A.
-*/
+ */
 
 public class ramdeen_p1_decrypt {
 	public static void main(String[] args) {
@@ -26,7 +18,13 @@ public class ramdeen_p1_decrypt {
 		int temp;
 		
 		
-		// Obtain 4-digit int from the User
+		// Welcome Message
+		System.out.println("========================");
+		System.out.println("Decryption");
+		System.out.println("========================\n");
+		
+		
+		// Obtain 4-digit int from the User (encrypted)
 		System.out.print("Enter a 4-digit integer: ");
 		user_int = s.nextInt();
 		

@@ -15,7 +15,7 @@ import java.util.Scanner;
  * Decrypt the integer from Part A.
 */
 
-public class ramdeen_p2_decrypt {
+public class ramdeen_p1_decrypt {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int user_int;
